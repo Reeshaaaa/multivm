@@ -1,7 +1,7 @@
 #!/bin/bash
 
-sudo apt update
-sudo apt install apache2 \
+sudo apt-get update
+sudo apt-get install apache2 \
                 ghostscript \
                 libapache2-mod-php \
                 mysql-server \
@@ -50,5 +50,5 @@ sudo -u www-data sed -i 's/database_name_here/wordpress/' /srv/www/wordpress/wp-
 sudo -u www-data sed -i 's/username_here/wordpress/' /srv/www/wordpress/wp-config.php
 sudo -u www-data sed -i 's/password_here/admin123/' /srv/www/wordpress/wp-config.php
 
-systemctl restart mysql1
+systemctl restart mysq1
 systemctl restart apache2
