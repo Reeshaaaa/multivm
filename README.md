@@ -19,7 +19,7 @@ Usage
 -----
 
 1. Clone this repository:
-    git clone https://github.com/Reeshaaaa/MultiVM-Vagrantfile
+    git clone https://github.com/Reeshaaaa/multivm
     cd multivm
 
 2. Start all virtual machines:
